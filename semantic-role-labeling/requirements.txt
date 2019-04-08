@@ -1,0 +1,5 @@
+allennlp==0.8.4
+spacy
+protobuf
+grpcio
+grpcio-tools

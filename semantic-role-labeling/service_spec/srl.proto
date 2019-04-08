@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Input {
+    string document = 1;
+}
+
+message Verbs {
+    string verb = 7;
+    string description = 8;
+    Words tags = 9;
+}
+
+message Words {
+    repeated string word = 6;
+}
+
+message Output{
+    repeated Verbs verbs = 10;
+    Words words = 11;
+}
+
+service SRL {
+    rpc resolve (Input) returns (Output) {}
+}
