@@ -37,4 +37,5 @@ For sample usage: Look at [usage](../../docs/users_guide/index.html) documentati
 Authors
 ------
 - Zelalem Fantahun - Author - [SingularityNet.io](https://singularitynet.io)
+- Kbrom Abadi - Author
 - Tesfa Yohannes - Maintainer - [SingularityNet.io](https://singularitynet.io)
