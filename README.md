@@ -10,7 +10,7 @@ For now here we have the following service
 * [Language Detection](language-detection/README.md) Service using Polyglot. 
 * [Named Entity Disambiguation](named-entity-disambiguation/README.md) using the Wiki Dump. 
 * [Correference Resolution](coreference-resolution/README.md) using allennlp's model. 
-* [Semantic Role Labeling] (semantic-role-labeling/README.md) using allennlp's model.
+* [Semantic Role Labeling](semantic-role-labeling/README.md) using allennlp's model.
 
 
 The service description for this services could be found at http://singnet.github.io/nlp-services-misc
@@ -20,4 +20,3 @@ Authors
 * Zelalem Fantahun - Author - [SingularityNet](https://singularitynet.io)
 * Kbrom Abadi - Author 
 * Tesfa Yohannes - Maintainer - [SingularityNet](https://singularitynet.io)
-*
