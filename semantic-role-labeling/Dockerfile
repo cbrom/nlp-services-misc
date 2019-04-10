@@ -32,8 +32,8 @@ WORKDIR /semantic-role-labeling-service
 RUN chmod +x install.sh && ./install.sh
 
 
-EXPOSE 8018
-EXPOSE 8008
+EXPOSE 8021
+EXPOSE 8011
 EXPOSE 50051
 
 CMD ["python3.6", "start_service.py"]
