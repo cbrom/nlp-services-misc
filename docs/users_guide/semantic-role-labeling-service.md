@@ -7,6 +7,8 @@
 
 This service provides a wrapper around [allenlp](https://demo.allennlp.org/semantic-role-labeling)'s great demo and models available for semantic role labeling
 
+[Semantic Role Labeling (SRL)](https://en.wikipedia.org/wiki/Semantic_role_labeling) recovers the latent predicate argument structure of a sentence, providing representations that answer basic questions about sentence meaning, including “who” did “what” to “whom,” etc.
+
 
 ### Using the service on the platform
 - The input to the system is straight forward. It is a sentence or group of sentences as defined by the following proto. 
@@ -41,6 +43,23 @@ service SRL {
     rpc resolve (Input) returns (Output) {}
 }
 ```
+
+## Result Interpretation
+The result can be interpreted using [PropBank Annotation](https://en.wikipedia.org/wiki/PropBank)
+
+O is usually ignored
+
+ARG-0 is usually PROTO-AGENT
+
+ARG-1 is usually PROTO-PATIENT
+
+ARG-2 is usually benefactive, instrument, attribute
+
+ARG-3 is usually start point, benefactive, instrument, attribute
+
+ARG-4 is usually end point (e.g., for move or push style verbs)
+
+For a given sentence, the list of words and verbs along side their description and tags are returned. Tags are the PropBank tagged labels of each word for a given verb.
 
 The following is the response to the query: "The keys, which were needed to access the building, were locked in the car."
 ```text
