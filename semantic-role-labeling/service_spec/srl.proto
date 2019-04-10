@@ -5,18 +5,18 @@ message Input {
 }
 
 message Verbs {
-    string verb = 7;
-    string description = 8;
-    Words tags = 9;
+    string verb = 2;
+    string description = 3;
+    Words tags = 4;
 }
 
 message Words {
-    repeated string word = 6;
+    repeated string word = 5;
 }
 
 message Output{
-    repeated Verbs verbs = 10;
-    Words words = 11;
+    repeated Verbs verbs = 6;
+    Words words = 7;
 }
 
 service SRL {
