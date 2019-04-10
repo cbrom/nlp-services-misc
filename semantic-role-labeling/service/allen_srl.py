@@ -12,6 +12,7 @@ class SRL:
 
     @staticmethod
     def validate_doc(document):
+        """ Any validations should be carried out here """
         return True
 
 
