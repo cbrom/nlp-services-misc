@@ -18,5 +18,5 @@ The service description for this services could be found at http://singnet.githu
 Authors
 -
 * Zelalem Fantahun - Author - [SingularityNet](https://singularitynet.io)
-* Kbrom Abadi - Author 
+* Kbrom Abadi - Author - [iCog-Labs mail](cbrom@icog-labs.com)
 * Tesfa Yohannes - Maintainer - [SingularityNet](https://singularitynet.io)
