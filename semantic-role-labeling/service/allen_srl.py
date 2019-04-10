@@ -3,7 +3,6 @@ import argparse
 from allennlp.predictors import Predictor
 
 class SRL:
-    # predictor = Predictor.from_path("/root/.allennlp/models/srl-model-2018.05.25.tar.gz")
     predictor = Predictor.from_path("./models/srl-model-2018.05.25.tar.gz")
 
     @staticmethod
