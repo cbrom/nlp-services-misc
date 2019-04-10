@@ -1,3 +1,4 @@
+service/client.py
 *.swp
 *.pyc
 *_pb2.py
