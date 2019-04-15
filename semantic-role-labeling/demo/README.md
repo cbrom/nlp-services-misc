@@ -31,17 +31,7 @@ npm run build
 Built assets are placed in the `build` subfolder, which the Sanic server is
 configured to use.
 
-Now to run the demo, you can `cd` to the root AllenNLP directory and run the
-following.
-
-```
-./bin/allennlp serve
-```
-
-You may need to force refresh your web browser.
-
-If you are developing the Javascript, then you will want to run that portion
-through npm itself.  This way the browser will refresh after each code change.
+To run the demo execute the following to the terminal.
 
 ```
 npm start
