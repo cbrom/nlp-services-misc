@@ -42,7 +42,7 @@ class SRLServicer(srl_pb2_grpc.SRLServicer):
         except Exception as exp:
             context.set_code(grpc.StatusCode.UNKNOWN)
             context.set_details("Exception happened during getting results... \n", exp.__str__())
-                return srl_pb2.Output()
+            return srl_pb2.Output()
 
         return response
 
