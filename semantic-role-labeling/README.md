@@ -25,11 +25,11 @@ Deployment
 -----
 - GRPC endpoint
 ```
-docker run --rm -it -p 8001 --name coref singularitynet/semantic-role-labeling-service 
+docker run --rm -it -p 8001 --name srl singularitynet/semantic-role-labeling-service 
 ```
 - Dameon endpoint
 ```
-docker run --rm -it -p 8007 -p 8008 --name coref singularitynet/semantic-role-labeling-service
+docker run --rm -it -p 8007 -p 8008 --name srl singularitynet/semantic-role-labeling-service
 ```
 
 For sample usage: Look at [usage](../../docs/users_guide/index.html) documentation.
